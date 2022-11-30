@@ -3,10 +3,11 @@
   padding: 0;
  <!-- font-family: 'Poppins', sans-serif;-->
 }
+
 .header{
-  min-height 100vh;
+  min-height: 120vh;
   width: 100%;
-  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Images/ADA.png");
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Images/comp.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -74,7 +75,7 @@ nav img{
     color: #fff;
   	border: 1px solid #fff
     padding: 12px 34px;
-  font-size:13px;
+  font-size:16px;
   background: transparent;
   position: relative;
 	cursor: pointer;
@@ -338,15 +339,40 @@ padding: 0;
 	  font-weight: 600;
 
 }
-.icons .fa{
-	color: #f44336;
-  	margin: 0 13px;
-  	cursor: pointer;
-  	padding: 18px 0;
-
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 .fa-heart-o{
 	color: #f44336;
   
 }
+
 
